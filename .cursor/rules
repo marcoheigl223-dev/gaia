@@ -1,0 +1,30 @@
+﻿# GAIA DEVELOPMENT RULES
+
+## 🚨 KRITISCHE SICHERHEIT 🚨
+
+### NIE IM ORIGINAL ARBEITEN!
+- ORIGINAL: C:\Projects\Gaia\core
+- SANDBOX: C:\Projects\Gaia\_work
+
+### Workflow (PFLICHT):
+1. Kopiere core/ -> _work/task-TIMESTAMP/
+2. Arbeite in _work/
+3. Teste alles
+4. Nur wenn grün -> zurück nach core/
+
+### NIEMALS:
+- ❌ Direkt in core/ arbeiten
+- ❌ Auf main committen ohne Tests
+- ❌ Pushen ohne Review
+
+## Coding Standards
+
+### Python
+- Type hints verwenden
+- Docstrings (Google-Style)
+- pytest für Tests
+- Black formatting
+
+### Git Commits
+Format: type: subject
+Types: feat, fix, refactor, test, docs, agent
